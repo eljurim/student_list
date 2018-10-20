@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Jquery Introduccción</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/jquery-ui.min.css">
+	<link rel="stylesheet" href="css/jquery-ui.structure.min.css">
+	<link rel="stylesheet" href="css/jquery-ui.theme.min.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+	<nav>
+		<div id="some-id" class="nav-button" data-controls="#alumnos">Alumnos</div>
+		<div class="nav-button" data-controls="#services">Servicios</div>
+		<div class="nav-button" data-controls="#contact">Contacto</div>
+		<div class="nav-button" data-controls="#about">Quienes Somos</div>
+	</nav>
+	<section id="alumnos">
+		<h1>Este es el contenido de mi sección Alumnos</h1>
+		<table>
+			<thead>
+				<tr>
+					<th>Nombre</th>
+					<th>Edad</th>
+					<th>Ciudad</th>
+					<th>Fecha de nacimiento</th>
+				</tr>
+			</thead>
+			<tbody id="alumnos-table">
+
+			</tbody>
+		</table>
+		<div class="card-wrapper">
+			<div id="img-wrapper"></div>
+			<div id="name-wrapper"></div>
+			<div id="age-wrapper"></div>
+			<div id="city-wrapper"></div>
+			<div id="birthday-wrapper"></div>
+		</div>
+		<br>
+		<form action="">
+			<div class="form-group">
+				<label for="">Nombre</label>
+				<input id="student-name" type="text">
+			</div>
+			<div class="form-group">
+				<label for="">Edad</label>
+				<input id="student-age" type="number">
+			</div>
+			<div class="form-group">
+				<label for="">Ciudad</label>
+				<input id="student-city" type="text">
+			</div>
+			<div class="form-group">
+				<label for="">Fecha de nacimiento</label>
+				<input id="student-birthdate" type="text">
+			</div>
+			<div class="form-group">
+				<div id="add-student" class="btn btn-primary">Agregar</div>
+			</div>
+		</form>
+		<br><br>
+	</section>
+	<section id="services">
+		<h1>Este es el contenido de mi sección Servicios</h1>
+	</section>
+	<section id="contact">
+		<h1>Este es el contenido de mi sección Contacto</h1>
+	</section>
+	<section id="about">
+		<h1>Este es el contenido de mi sección Quiénes somos</h1>
+	</section>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
